@@ -29,6 +29,7 @@ end
 
 gem 'jquery-rails'
 
+gem 'rails_12factor', group: :production
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -40,7 +41,8 @@ gem 'jquery-rails'
 
 # Deploy with Capistrano
 # gem 'capistrano'
-ruby '1.9.3p484'
+
 
 # To use debugger
 # gem 'debugger'
+ruby '1.9.3'
