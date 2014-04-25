@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+    <title><%= @video.title || "Zype Video" %></title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
@@ -33,6 +33,21 @@
   </section>
 </nav>
   <%= javascript_include_tag "application" %>
+  <div class="wrapper">
     <%= yield %>
+    <div class="push"></div>
+
+  </div>
+
+  <footer class="top-bar zype-top-bar footer">
+    <div class="large-12 columns">
+      <div class="row">
+        <div class="large-6 columns">
+          <p class="zype-footer-text">© Zype.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   </body>
 </html>
