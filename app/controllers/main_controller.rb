@@ -1,7 +1,6 @@
 class MainController < ApplicationController
 
   def index
-    binding.pry
     if params['type'] == 'youtube'
       @video = @zype_cli.videos.all({_type: "Video::Youtube"}).first
     else
