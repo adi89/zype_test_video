@@ -140,6 +140,7 @@ DEPENDENCIES
   foundation-rails
   hashie
   jquery-rails
+  multi_json
   pg
   pry-debugger
   rails (= 3.2.12)

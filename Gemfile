@@ -12,7 +12,7 @@ gem 'hashie'
 gem 'zype', :git => "https://#{ENV['GIT_USERNAME']}:#{ENV['GIT_PASSWORD']}@github.com/edla/zype-cli.git", :branch => '69571808'
 
 gem 'pry-debugger'
-
+gem 'multi_json'
 gem 'foundation-rails'
 
 # Gems used only for assets and not required
