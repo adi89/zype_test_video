@@ -11,7 +11,6 @@ class MainController < ApplicationController
       @video = @zype_cli.videos.all({_type: "Video::Zype"}).first
     end
     @embed = @zype_cli.videos.embed(@video._id, {autoplay: true})
-    binding.pry
   end
 
 
