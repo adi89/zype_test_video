@@ -3,7 +3,11 @@
 <div class="large-3-columns"></div>
 <div id="player">
   <div class="large-6-columns">
-      <%= @embed.body.html_safe %>
+      <% if @embed %>
+        <%= @embed.body.html_safe %>
+      <% else %>
+        <h1> Test </h1>
+      <% end %>
     </div>
 </div>
 <div class="large-3-columns"></div>
