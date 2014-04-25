@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+#zype_player {
+  margin-top: 2em;
+  width: 100%;
+}
+
+.ztp-header{
+  font-weight: bold!important;
+}
+
+.zype-top-bar{
+  // overflow: auto!important;
+  margin-top: 2em;
+  background-color: rgb(248, 69, 69);
+}
+
+* {
+margin: 0;
+}
+
+html, body {
+height: 100%;
+font-family: 'Montserrat', 'sans-serif'!important;
+}
+
+.zype-footer-text{
+  color: white;
+  font-size: 1em;
+}
+
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -5em;
+}
+
+.footer, .push {
+height: 2em;
+}
+
+.zype-footer-col{
+    top: 2em;
+}
+#zype-footer-body{
+  height: 5em;
+}
+a:hover, a:visited, a:link, a:active{
+  text-decoration: none;
+  color: white;
+}

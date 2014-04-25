@@ -15,7 +15,7 @@
     <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#"> Zype Test Player</a></h1>
+      <h1><a href="#" id="ztp-header"> Zype Test Player</a></h1>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
@@ -39,11 +39,11 @@
 
   </div>
 
-  <footer class="top-bar zype-top-bar footer">
-    <div class="large-12 columns">
+  <footer class="top-bar zype-top-bar footer" id="zype-footer-body">
+    <div class="large-12 columns zype-footer-col">
       <div class="row">
         <div class="large-6 columns">
-          <p class="zype-footer-text">© Zype.</p>
+          <p class="zype-footer-text"><%= link_to '@ 2013 Zype Media Group', 'http://zype.com', class: 'zype-link' %> | ZypeTM is a registered trademark.</p>
         </div>
       </div>
     </div>

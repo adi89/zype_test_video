@@ -1046,14 +1046,31 @@
 // $switch-height-med: 36px;
 // $switch-height-lrg: 44px;
 // $switch-bottom-margin: rem-calc(20);
-
+html, body {
+height: 100%;
+font-family: 'Montserrat', 'sans-serif';
+}
 // We use these to control default font sizes for our classes.
 // $switch-font-size-tny: 11px;
 // $switch-font-size-sml: 12px;
 // $switch-font-size-med: 14px;
 // $switch-font-size-lrg: 17px;
 // $switch-label-side-padding: 6px;
+.top-bar a{
+  font-family: 'Montserrat', 'sans-serif'!important;
+}
 
+nav.top-bar, nav.top-bar li{
+   background-color: rgb(248, 69, 69)!important;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+   background-color: rgb(248, 69, 69);
+}
+
+.top-bar-section ul li > a{
+  background: rgb(248, 69, 69)!important;
+}
 // We use these to style the switch-paddle
 // $switch-paddle-bg: #fff;
 // $switch-paddle-fade-to-color: scale-color($switch-paddle-bg, $lightness: -10%);
