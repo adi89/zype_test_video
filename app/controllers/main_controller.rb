@@ -13,7 +13,7 @@ class MainController < ApplicationController
     end
 
     if @video
-      @embed = @zype_cli.videos.embed(@video._id, {autoplay: true})
+      @embed = @zype_cli.videos.embed(@video._id)
     end
   end
 
