@@ -9,7 +9,7 @@ gem 'pg'
 
 gem 'hashie'
 
-gem 'zype', :git => "https://#{ENV['GIT_USERNAME']}:#{ENV['GIT_PASSWORD']}@github.com/edla/zype-cli.git", :branch => '69571808'
+gem 'zype', :git => "https://#{ENV['GIT_USERNAME']}:#{ENV['GIT_PASSWORD']}@github.com/edla/zype-cli.git", :branch => 'development'
 
 gem 'pry-debugger'
 gem 'multi_json'

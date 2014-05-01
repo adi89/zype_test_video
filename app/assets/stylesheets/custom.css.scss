@@ -26,9 +26,24 @@ font-family: 'Montserrat', 'sans-serif'!important;
 
 .zype-footer-text{
   color: white;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
+.error-page{
+  width: 80%;
+  margin-left: 2.4em;
+}
+
+@media all and (min-width: 700px) {
+  .error-page {
+    margin-left: 5em;
+    margin-bottom: 3em;
+ }
+}
+
+.error-pic{
+  width: 100%;
+}
 
 .wrapper {
 min-height: 100%;

@@ -1,11 +1,15 @@
 <div class="row">
-<div class="large-3-columns"></div>
+<div class="large-3-columns">
+
+</div>
 <div id="zype_player">
 
       <% if @embed %>
         <%= @embed.body.html_safe %>
       <% else %>
-        <h1> Test </h1>
+      <div class="error-page">
+        <%= image_tag "http://media.techeblog.com/images/funny_404_errorpages.jpg", class: "error-pic" %>
+      </div>
       <% end %>
 </div>
 <div class="large-3-columns"></div>
