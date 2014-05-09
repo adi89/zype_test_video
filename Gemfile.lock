@@ -1,6 +1,6 @@
 GIT
   remote: https://adi89:Akansha1@github.com/edla/zype-cli.git
-  revision: 626181d54f88c7e6505e98a27106f82aaaa6d45a
+  revision: 7be8007a64dde69b4940ecfe91fb8b4e52403bad
   branch: development
   specs:
     zype (0.0.0)
