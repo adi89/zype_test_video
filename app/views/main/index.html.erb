@@ -4,13 +4,8 @@
 </div>
 <div id="zype_player">
 
-      <% if @embed %>
-        <%= @embed.body.html_safe %>
+       <script> zype.play('#zype_player','<%= @video._id %>') </script>
       <% else %>
-      <div class="error-page">
-        <%= image_tag "http://media.techeblog.com/images/funny_404_errorpages.jpg", class: "error-pic" %>
-      </div>
-      <% end %>
 </div>
 <div class="large-3-columns"></div>
 </div>

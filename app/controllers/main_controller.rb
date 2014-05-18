@@ -6,11 +6,8 @@ class MainController < ApplicationController
 
   def index
 
-    @video = @zype_cli.videos.first
+    @video = @zype_cli.videos.last
 
-    if @video
-      @embed = @zype_cli.videos.embed(@video._id)
-    end
   end
 
 
